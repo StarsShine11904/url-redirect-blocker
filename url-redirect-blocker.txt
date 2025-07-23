@@ -1,0 +1,10 @@
+! Title: Simple URL Redirect Blocker Filter (Global)
+! Description: Prevents secondary URL redirects by stripping common redirect parameters from all URLs.
+! Last Updated: 2025-07-23
+! Homepage: https://github.com/your-username/your-repo (請將 'your-username/your-repo' 替換為您實際的 GitHub 帳戶和儲存庫名稱)
+
+! Global rule to remove common redirect parameters from URLs.
+! This rule attempts to clean URLs by removing parameters often used for redirection or tracking.
+! 這是用於從所有網址中移除常見跳轉參數的全域規則。
+! 此規則旨在通過移除常用於重定向或追蹤的參數來清理網址。
+$removeparam=url,redirect,link,go,out,to,r,ref,target,dest,destination,forward,next,u,href,click,track,adurl,ad_url,affiliate,partner,s,q,query,data,path,ref_url,return_url,src,source,utm_source,utm_medium,utm_campaign,utm_term,utm_content
